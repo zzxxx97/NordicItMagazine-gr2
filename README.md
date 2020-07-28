@@ -1,0 +1,1 @@
+# NordicItMagazine-gr2
