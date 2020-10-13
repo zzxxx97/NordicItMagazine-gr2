@@ -1,8 +1,9 @@
 <?php
-    
+     
     
     switch ($_REQUEST['action']){
         case 'catalog':
+            header("Access-Control-Allow-Origin: *");
             include_once('./goods.php');
             $goods = new goods;
             echo json_encode($goods -> getList());

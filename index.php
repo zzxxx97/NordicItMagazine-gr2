@@ -1,1 +1,5 @@
-Магазин
+<?
+header("Access-Control-Allow-Origin: *");
+include_once "header.php";
+include_once "controller.php";
+include_once "footer.php";
