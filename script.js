@@ -21,10 +21,6 @@ enter.addEventListener("click", function(event){
 });
 
 
-document.forms.aut.onsubmit = function(e){
-    e.preventDefault();
-};
-
 
 
 function sendData(form, type, url) {
@@ -52,4 +48,9 @@ document.forms.reg.onsubmit = function(e){
         'POST',
         'http://192.168.64.3/api/controller.php'
     )
+};
+
+
+document.forms.aut.onsubmit = function(e){
+    e.preventDefault();
 };
